@@ -1,0 +1,13 @@
+Hello this is a number guessing game which is created in the python language...This is my first project ever so I am very excited to share it !
+
+secret_number = 9
+guess_count = 0
+guess_limit = 3
+while guess_count <guess_limit:
+    guess = int(input('Guess:'))
+    guess_count += 1
+    if guess == secret_number:
+        print('you won!')
+        break
+else:
+    print('sorry you failed! ')
